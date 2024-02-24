@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	general_types_example "generic/example_general_types"
 	"generic/interface_example"
-	mapExample "generic/map_example"
+	"generic/map_example"
 
 	"golang.org/x/exp/constraints"
 )
@@ -31,5 +32,7 @@ func main() {
 	interface_example.ExampleWithInterface("nahkar")
 
 	//! Example with map
-	mapExample.ExampleWithMap()
+	map_example.ExampleWithMap()
+
+	general_types_example.ExampleWithGeneralTypes()
 }

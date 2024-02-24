@@ -1,4 +1,4 @@
-package mapExample
+package map_example
 
 import "fmt"
 
